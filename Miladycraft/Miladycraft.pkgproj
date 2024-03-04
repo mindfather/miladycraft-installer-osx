@@ -44,72 +44,6 @@
 											<array>
 												<dict>
 													<key>CHILDREN</key>
-													<array>
-														<dict>
-															<key>CHILDREN</key>
-															<array/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>Miladycraft 1.4/minecraft_milady.png</string>
-															<key>PATH_TYPE</key>
-															<integer>1</integer>
-															<key>PERMISSIONS</key>
-															<integer>438</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-													</array>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>icons</string>
-													<key>PATH_TYPE</key>
-													<integer>2</integer>
-													<key>PERMISSIONS</key>
-													<integer>509</integer>
-													<key>TYPE</key>
-													<integer>2</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array>
-														<dict>
-															<key>CHILDREN</key>
-															<array/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>Miladycraft 1.4</string>
-															<key>PATH_TYPE</key>
-															<integer>1</integer>
-															<key>PERMISSIONS</key>
-															<integer>493</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-													</array>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>instances</string>
-													<key>PATH_TYPE</key>
-													<integer>2</integer>
-													<key>PERMISSIONS</key>
-													<integer>509</integer>
-													<key>TYPE</key>
-													<integer>2</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
 													<array/>
 													<key>GID</key>
 													<integer>80</integer>
@@ -551,12 +485,12 @@
 				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>RESOURCES</key>
 				<array/>
@@ -651,7 +585,7 @@
 					</dict>
 				</dict>
 				<key>MODE</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<key>INSTALLATION_STEPS</key>
 			<array>
@@ -943,7 +877,7 @@
 			<key>NAME</key>
 			<string>Miladycraft</string>
 			<key>PAYLOAD_ONLY</key>
-			<false/>
+			<true/>
 			<key>TREAT_MISSING_PRESENTATION_DOCUMENTS_AS_WARNING</key>
 			<false/>
 		</dict>

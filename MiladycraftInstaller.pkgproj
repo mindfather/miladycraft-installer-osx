@@ -19,7 +19,7 @@
 			<key>PACKAGE_FILES</key>
 			<dict>
 				<key>DEFAULT_INSTALL_LOCATION</key>
-				<string>/Applications</string>
+				<string>/</string>
 				<key>HIERARCHY</key>
 				<dict>
 					<key>CHILDREN</key>
@@ -487,7 +487,7 @@
 				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
@@ -975,13 +975,13 @@
 			<dict>
 				<key>POSTINSTALL_PATH</key>
 				<dict>
+					<key>PATH</key>
+					<string>scripts/install_jdk.sh</string>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
-					<key>PATH</key>
-					<string>/Users/bafflepilled/Documents/Miladycraft Installer/scripts/install_jdk.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
@@ -1484,17 +1484,35 @@
 				<key>POSTINSTALL_PATH</key>
 				<dict>
 					<key>PATH</key>
-					<string>/Users/bafflepilled/Documents/Miladycraft Installer/scripts/install_miladycraft.sh</string>
+					<string>scripts/import_miladycraft.sh</string>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
+					<key>PATH</key>
+					<string>scripts/install_miladycraft.sh</string>
 					<key>PATH_TYPE</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>RESOURCES</key>
 				<array>
+					<dict>
+						<key>CHILDREN</key>
+						<array/>
+						<key>GID</key>
+						<integer>0</integer>
+						<key>PATH</key>
+						<string>Miladycraft 1.4.zip</string>
+						<key>PATH_TYPE</key>
+						<integer>1</integer>
+						<key>PERMISSIONS</key>
+						<integer>436</integer>
+						<key>TYPE</key>
+						<integer>3</integer>
+						<key>UID</key>
+						<integer>0</integer>
+					</dict>
 					<dict>
 						<key>CHILDREN</key>
 						<array/>
@@ -1610,8 +1628,8 @@
 											<integer>1</integer>
 											<key>IC_REQUIREMENT_FILES_LIST</key>
 											<array>
-												<string>/Library/Java/JavaVirtualMachines/jdk-21.jdk</string>
-												<string>/Library/Java/JavaVirtualMachines/temurin-21.jdk</string>
+												<string>/Library/Java/JavaVirtualMachines/jdk-17.jdk</string>
+												<string>/Library/Java/JavaVirtualMachines/temurin-17.jdk</string>
 											</array>
 											<key>IC_REQUIREMENT_FILES_SELECTOR</key>
 											<integer>1</integer>
