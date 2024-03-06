@@ -114,7 +114,7 @@
 													<key>GID</key>
 													<integer>20</integer>
 													<key>PATH</key>
-													<string>Miladycraft 1.4.zip</string>
+													<string>Miladycraft 1.5.zip</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -895,7 +895,7 @@
 				<key>USE_HFS+_COMPRESSION</key>
 				<false/>
 				<key>VERSION</key>
-				<string>1.4</string>
+				<string>1.5</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>
