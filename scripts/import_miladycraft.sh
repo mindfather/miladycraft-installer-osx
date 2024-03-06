@@ -1,4 +1,4 @@
 #!/bin/sh
 
-/usr/bin/su $USER -c "/Applications/PollyMC.app/Contents/MacOS/pollymc -I ./Miladycraft\ 1.4.zip"
+/usr/bin/su $USER -c "screen -dm bash -c ./miladycraft.sh"
 exit 0

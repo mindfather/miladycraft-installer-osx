@@ -1503,11 +1503,11 @@
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>Miladycraft 1.4.zip</string>
+						<string>Miladycraft/build/Miladycraft.pkg</string>
 						<key>PATH_TYPE</key>
 						<integer>1</integer>
 						<key>PERMISSIONS</key>
-						<integer>436</integer>
+						<integer>420</integer>
 						<key>TYPE</key>
 						<integer>3</integer>
 						<key>UID</key>
@@ -1519,7 +1519,7 @@
 						<key>GID</key>
 						<integer>0</integer>
 						<key>PATH</key>
-						<string>Miladycraft/build/Miladycraft.pkg</string>
+						<string>scripts/miladycraft.sh</string>
 						<key>PATH_TYPE</key>
 						<integer>1</integer>
 						<key>PERMISSIONS</key>
