@@ -1,2 +1,2 @@
 #!/bin/bash
-"/Applications/PollyMC.app/Contents/MacOS/pollymc"  "--launch" "Miladycraft 1.5"
+"/Applications/PollyMC.app/Contents/MacOS/pollymc"  "--launch" "MiladyCraft_localhost"
